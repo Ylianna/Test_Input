@@ -39,8 +39,6 @@ const Input: React.FC<InputPropsType> = (
         && onEnter() // то вызвать его
     }
 
-    // const finalInputClassName = {`${error} ? ${s.errorInput} : ${s.input}`}
-
     return (
         <>
             <input
