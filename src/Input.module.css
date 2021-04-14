@@ -1,0 +1,30 @@
+.input:focus {
+  outline: none;
+  border: #48908d solid 2px;
+}
+
+.input {
+  /*margin: 10px;*/
+  /*background: #ddecec;*/
+  /*color: #1a1a1a;*/
+  /*border: 1px solid #7d9ba3;*/
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+input[type=text] {
+  background: blue;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+/*# sourceMappingURL=Input.module.css.map */
