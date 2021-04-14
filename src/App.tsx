@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import style from './App.module.css'
+import './reset.css';
 import Input from "./Input";
 import ModalWindowShow from "./ModalWindowShow";
 
@@ -35,9 +36,9 @@ function App() {
     return (
         <div className={style.App}>
 
-            <div className={style.inputsButton}>
+            <div className={style.formContainer}>
 
-                <div>
+                <div className={style.inputContainer}>
                     <Input
                         value={name}
                         onChangeText={setName}
@@ -47,7 +48,7 @@ function App() {
                     />
                 </div>
 
-                <div>
+                <div className={style.inputContainer}>
                     <Input
                         value={lastName}
                         onChangeText={setLastName}

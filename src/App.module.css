@@ -1,27 +1,31 @@
 .App {
-  height: 100vh;     /*vh-видимоя высота экрана*/
-  background-color: #e7e7e7;
-  /*margin: 20%;*/
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://storge.pic2.me/c/1360x800/395/5272eaca6747e.jpg");
-  /*background-position: center; !* Center the image *!*/
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh; /*vh-видимоя высота экрана*/
+    background-color: #e7e7e7;
+    /*margin: 20%;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://storge.pic2.me/c/1360x800/395/5272eaca6747e.jpg");
+    /*background-position: center; !* Center the image *!*/
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
+.formContainer {
+    max-width: 250px;
+    width: 75%;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    text-align: center;
+}
 
-
-.inputsButton {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.inputContainer {
+    position: relative;
+    margin-bottom: 15px;
 }
 
 

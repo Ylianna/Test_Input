@@ -4,18 +4,20 @@
 }
 
 .input {
-  /*margin: 10px;*/
-  /*background: #ddecec;*/
-  /*color: #1a1a1a;*/
-  /*border: 1px solid #7d9ba3;*/
   position: relative;
   display: inline-block;
   font-size: 20px;
   box-sizing: border-box;
   transition: 0.5s;
   border-radius: 25px;
-  margin: 5px;
+}
 
+.error {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 100%;
+  color: #dc2e2e;
 }
 
 input[type='text']

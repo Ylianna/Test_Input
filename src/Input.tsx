@@ -49,7 +49,7 @@ const Input: React.FC<InputPropsType> = (
                 placeholder={label}
                 {...restProps}
             />
-            {<span >{error}</span>}
+            {<span className={style.error}>{error}</span>}
 
         </>
     )
